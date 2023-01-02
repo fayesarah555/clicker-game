@@ -1,0 +1,58 @@
+<html leng='en'>
+    <head>
+        <title>Rich Maker</title>
+        <link rel="icon" type="image/png" href="https://coinmasterspins.net/wp-content/uploads/2020/03/favicon.png" /> 
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+        <script type="text/javascript" src="js/script.js"></script>
+    </head>
+    <body>
+        <section class="top_container">
+            <h1 class="title">Rich Maker</h1>
+            <h1 class="click_span">Click on the coin and get more and more money !</h1>
+        </section>
+        <section class="gold">
+            <p>Number of golds owned by the player <p id="gold_update">0</p></p>
+            <a href=# onclick="increment(1)"><img src="https://coinmasterspins.net/wp-content/uploads/2020/03/favicon.png"></a>
+        </section>
+        <section class="gps">
+            <p>Additional golds per second owned by the player <p id="gps_update">0</p></p>
+        </section>
+        <section class="Items">
+            <div class="Distributer">
+                <img src="https://cdn.pixabay.com/photo/2017/06/08/19/51/atm-2384676_1280.png" alt="">
+                <div class="Distributer_bis">
+                <p>Distributer</p>
+                <p>cost = 100 golds</p>
+                <p>gps = 1</p>
+                <p>owned = <span id="owned_update">0</span></p>
+                <button class="button" onclick="buyMinion(0)">Buy</button>
+                </div>
+            </div>
+            <div class="Hotels">
+                <img src="https://key0.cc/images/small/20692_7c46a05e2079cb2e7d349b6e74d9cfe6.png" alt="">
+                <div class="Hotels_bis">
+                <p>Hotels</p>
+                <p>cost = 1000 golds</p>
+                <p>gps = 10</p>
+                <p>owned = <span id="owned_update">0</span></p>
+                <button class="button" onclick="buyMinion(1)">Buy</button></p>
+                </div>
+            </div>
+            <div class="Bank">
+                <img src="https://cdn1.iconfinder.com/data/icons/urban-infrastructure-cartoon/512/g6572-512.png" alt="">
+                <div class="Bank_bis">
+                <p>Bank</p>
+                <p>cost = 5000 golds</p>
+                <p>gps = 50</p>
+                <p>owned = <span id="owned_update">0</span></p>
+                <button class="button" onclick="buyMinion(2)">Buy</button></p>
+                </div>
+            </div>
+        </section>
+        <section class="save">
+            <button  class="button"><a href="#" onclick="save()">Save</a></button>
+            <button  class="button"><a href="#" onclick="load()">Load</a></button>
+        </section>
+    </body>
+</html>

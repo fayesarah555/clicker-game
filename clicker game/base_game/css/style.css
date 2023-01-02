@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Hind+Madurai&family=Shippori+Antique&display=swap');
+
+html{
+    height: 100%;
+    width: 100%;
+    color: white;
+    font-family: 'Hind Madurai', sans-serif;
+    font-family: 'Shippori Antique', sans-serif;
+}
+
+body{
+    height: 95%;
+    width: 95%;
+    background: url('https://i2.wp.com/batqualite.com/wp-content/uploads/2018/04/Couleur-fond-orange.jpg?ssl=1');
+}
+
+.click_span{
+    text-shadow:#ffae00 2.5px 2.5px 0,
+                #ff00c0 5px 5px 0,
+                #aa0306 7.5px 7.5px 0,
+                #7c0003 10px 10px 10px;
+    color:#ffe69a; 
+    text-align: center;
+    top: 10px;
+    position: absolute;
+    right: 380px;
+    
+}
+.title{
+    text-shadow:0 0 3px #FFE205, 0 0 7px #FFE205, 0 0 20px #EDD205,
+    #9c9c9c 1px 1px 1px,
+    #9c9c9c 1px 2px 1px,
+    #9c9c9c 1px 3px 1px,
+    #9c9c9c 1px 4px 1px,
+    #9c9c9c 1px 5px 1px,
+    #9c9c9c 1px 6px 1px,
+    #9c9c9c 1px 7px 1px,
+    #9c9c9c 1px 8px 1px,
+    #9c9c9c 1px 9px 1px,
+    #9c9c9c 1px 10px 1px,
+    #9c9c9c 1px 11px 1px,
+    #9c9c9c 1px 12px 1px;
+    color:#FFE205;
+}
+
+.click_span{
+    background: none;
+    border-radius: 30px;
+    padding: 10px;
+    padding-top: 0;
+}
+
+.gold img {
+    text-align: center;
+    top: 170px;
+    position: absolute;
+    left: 40%;
+    transition: all .2s ease-in-out ;
+}
+
+.gold img:hover{transform: scale(1.10);}
+
+.gold img:active{ transform: scale(O.99);}
+
+.gold{
+    margin-top: 60px;
+}
+.Distributer{
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #D4C23E;
+    padding: 30px;
+
+}
+
+.Hotels{
+    display: flex;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    background-color: #D4C23E;
+    padding: 30px;
+}
+
+.Bank{
+    display: flex;
+    border-radius: 20px;
+    background-color: #D4C23E;
+    padding: 30px;
+}
+
+.Distributer img{
+    width: 180px;
+    margin-right: 50px;
+}
+
+.Hotels img{
+    width: 180px;
+    margin-right: 50px;
+}
+
+.Bank img{
+    width: 180px;
+    margin-right: 50px;
+}
+
+.Items{
+    background: url('https://i2.wp.com/batqualite.com/wp-content/uploads/2018/04/Couleur-fond-orange.jpg?ssl=1');
+    display: grid;
+    position: absolute;
+    right: 40px;
+    top: 100px;
+    padding-bottom: 40px;
+}
+
+
+/* début button design */
+
+.button {
+  display: inline-block;
+  padding: 10px 20px;
+  font-size: 19px;
+  cursor: pointer;
+  text-align: center;
+  text-decoration: none;
+  outline: none;
+  color: #fff;
+  background-color: #FFE100;
+  border: none;
+  border-radius: 15px;
+  box-shadow: 0 9px #999;
+}
+
+.button:hover {background-color: #FFE100}
+
+.button:active {
+  background-color: #FFE100;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+/*save and load button*/
+
+
+
+/*end save and load button*/
+
+/* fin du button */
